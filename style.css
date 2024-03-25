@@ -1,9 +1,71 @@
+
+body {
+    background-color: #5F8575;
+}
+
+.titlee{
+    font-family: "Butterfly Kids", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 80px;
+    color: white;
+}
+.subtitlee{
+    font-family: "Oregano", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.generate {
+    background: black;
+    width: 200px;
+    height: 100px;
+}
+.reset {
+    background: black;
+    width: 200px;
+    height: 100px;
+}
+
+
+
 .header {
-    height:100px;
+    height: 150px;
+    background: #C1E1C1;
 }
-body{
-    background-color: #B7FFC7;
+.sub-header{
+    background-color: #5F8575;
+    border:6px dotted #93C572;
 }
-.luckyy{
-    background-color: #28B346;
+
+.names-display {
+    background: white;
+    border:10px solid black;
+    height:400px;
 }
+.generated-name-display {
+    background: white;
+    border:10px solid black;
+    height:400px;
+}
+
+footer{
+    background-color: #C1E1C1;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+
+  }
+  .plswork{
+    font-family: 'Homemade Apple', cursive;
+  }
+  p{
+    font-family: 'Englebert', cursive;
+    margin: 0;
+  }
+  a{
+    color: #93C572;
+    font-family: 'Englebert', cursive;
+  }

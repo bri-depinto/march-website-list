@@ -3,38 +3,110 @@
 
 <head>
     <title>Lucky Me Lottery</title>
+
     <!-- Required meta tags -->
+    
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-<link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="style.css">
+
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link
+   href="https://fonts.googleapis.com/css2?family=Englebert&family=Homemade+Apple&family=Zen+Maru+Gothic:wght@300&display=swap"
+   rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Oregano:ital@0;1&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-
     <div class="container">
+        <div class="row my-4">
 
-<div class="row my-4">
-        <div class="col-12 header d-flex justify-content-center align-items-center luckyy">
-            <h1>Lucky Me Lottery</h1>
+<!-- title header -->
+
+            <div class="col-12">
+                <div class=" header justify-content-center d-flex align-items-center text-center">
+                    <h1 class="titlee">Lucky Me Lottery</h1>
+                </div>
+
+            </div>
+
+<!-- sub header -->
+
+            <div class="col-12">
+                <div class=" sub-header justify-content-center d-flex align-items-center text-center p-3">
+                    <h3 class="subtitlee">Feeling lucky? Add some names, and let the computer decide the lucky winner!</h3>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+
+<!-- input div -->
+
+            <div class="col-md-6 col-12 my-4">
+                <div class="header d-flex align-items-center justify-content-center text-center p-3" id="inputBox">
+                    <input type="text" class="form-control" id="nameInput" placeholder="Enter Name...">
+                </div>
+            </div>
+
+<!-- add button -->
+
+            <div class="col-md-6 col-12 my-4 d-flex align-items-center justify-content-center text-center">
+                <button class="btn btn-dark generate" id="addNameBtn">
+                    <h3 class="text-white">Add</h3>
+            </div>
+        </div>
+<!-- generate button -->
+        <div class="row">
+            <div class="col-12 my-4 d-flex align-items-center justify-content-center text-center" id="randomName">
+                <button class="btn btn-dark generate" id="pickRandomBtn">
+                    <h3 class="text-white">Generate</h3>
+                </div>
+        </div>
+
+<!-- name divs -->
+
+        <div class="row my-4">
+            <div class="col-12 col-md-6">
+                <div class="names-display p-3 text-center text-md-start" id="listNameDisplay">
+                    <ul id="nameList" class="list-group"></ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="generated-name-display p-3 d-flex align-items-center justify-content-center text-center" id="randomName">
+                    <h1 class="text-black"></h1>
+                </div>
+            </div>
+        </div>
+
+<!-- reset button -->
+
+        <div class="row">
+            <div class="col-12 my-4 d-flex align-items-center justify-content-center text-center">
+                <button class="btn btn-dark reset">
+                    <h3 class="text-white">Reset</h3>
+                </div>
         </div>
     </div>
 
-<div class="row">
-        <div class="text-center col-12">
-            <h3> feeling lucky? enter some names and see who the lucky winner is! </h3>
-        </div>
-</div>
+ <!--  footer start -->
+ <footer class=" text-white text-cente py-2">
+    <p>&copy; 2024 WDPP Level 2</p>
+     <a href="https://bri-depinto.github.io/Gallery/index.html" target="_blank" class="linkk"> My Gallery </a> <br>
+      <a href="https://github.com/bri-depinto" target="_blank" class="linkk"> My Github Page</a> 
+  
+    <p class="plswork"> From the mind of Brianna Lynn DePinto </p>
+  </footer>
+  <!--  footer end -->
 
-    </div>
-
-    <footer>
-        <!-- place footer here -->
-    </footer>
-    <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
@@ -43,7 +115,10 @@
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
 
-        <script src="script.js"></script>
+    <!-- javascript link -->
+
+    <script src="script.js"></script>
+
 </body>
 
 </html>
