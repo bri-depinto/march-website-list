@@ -58,7 +58,7 @@ body {
 .names-display {
     background: #C1E1C1;
     border:9px dotted white;
-    height:400px;
+    min-height:400px;
 }
 .generated-name-display {
     background: #C1E1C1;
