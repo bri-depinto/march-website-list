@@ -18,21 +18,37 @@ body {
 }
 
 .generate {
-    background: black;
+    background: white;
     width: 200px;
     height: 100px;
+    font-family: "Grandstander", cursive;
+    border: 5px double #93C572 ;
+    color: #5F8575;
+    text-align: center;
+}
+.gen{
+    font-size: 35px;
+}
+.ad{
+    font-size: 35px;
+}
+.re{
+    font-size: 35px;
 }
 .reset {
-    background: black;
+    background: white;
     width: 200px;
     height: 100px;
+    font-family: "Grandstander", cursive;
+    border: 5px double #93C572 ;
+    color: #5F8575;
+    text-align: center;
 }
-
-
-
 .header {
     height: 150px;
     background: #C1E1C1;
+    font-family: "Grandstander", cursive;
+    
 }
 .sub-header{
     background-color: #5F8575;
@@ -40,13 +56,13 @@ body {
 }
 
 .names-display {
-    background: white;
-    border:10px solid black;
+    background: #C1E1C1;
+    border:9px dotted white;
     height:400px;
 }
 .generated-name-display {
-    background: white;
-    border:10px solid black;
+    background: #C1E1C1;
+    border:9px dotted white;
     height:400px;
 }
 
