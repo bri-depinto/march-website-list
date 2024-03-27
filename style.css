@@ -24,7 +24,13 @@ body {
     font-family: "Grandstander", cursive;
     border: 5px double #93C572 ;
     color: #5F8575;
-    text-align: center;
+    transition: 0.3s;
+}
+.generate:hover{
+    box-shadow: 0 8px 4px 0 #93C572, 0 12px 40px 0 #93C572;
+   color:#93C572;
+   background: white;
+   transition: 0.3s;
 }
 .gen{
     font-size: 35px;
@@ -48,13 +54,17 @@ body {
     height: 150px;
     background: #C1E1C1;
     font-family: "Grandstander", cursive;
-    
 }
 .sub-header{
     background-color: #5F8575;
     border:6px dotted #93C572;
 }
-
+.inputt{
+    height: 150px;
+    background: #C1E1C1;
+    font-family: "Grandstander", cursive;
+    border-radius: 100px;
+}
 .names-display {
     background: #C1E1C1;
     border:9px dotted white;
@@ -64,6 +74,9 @@ body {
     background: #C1E1C1;
     border:9px dotted white;
     height:400px;
+}
+.list-group{
+background-color: red;
 }
 
 footer{
