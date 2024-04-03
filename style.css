@@ -77,8 +77,20 @@ body {
     height:400px;
     margin: 10px;
 }
-.list-group{
-background-color: red;
+.list-group-item{
+    font-family: "Grandstander", cursive;
+  background-color: #93C572;
+  text-align: center;
+  font-size: 20px;
+  margin: 2px;
+border: none;
+
+}
+.random-name{
+    font-family: "Grandstander", cursive;
+    font-size: 65px;
+    font-weight: 900;
+    color: #93C572;
 }
 
 footer{
