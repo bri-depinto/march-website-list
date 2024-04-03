@@ -64,3 +64,8 @@ document.getElementById('addNameBtn').addEventListener('click', addName)
 
 // event listener for the button to select and dsplay random button
 document.getElementById('pickRandomBtn').addEventListener('click', pickRandomName)
+
+document.addEventListener('keypress', function (e) {
+    if (e.key === "Enter")
+        addName()
+})
