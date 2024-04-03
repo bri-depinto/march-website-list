@@ -69,11 +69,13 @@ body {
     background: #C1E1C1;
     border:9px dotted white;
     min-height:400px;
+    margin: 10px;
 }
 .generated-name-display {
     background: #C1E1C1;
     border:9px dotted white;
     height:400px;
+    margin: 10px;
 }
 .list-group{
 background-color: red;

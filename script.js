@@ -14,7 +14,7 @@ function addName() {
 
 //alert if invaild name is entered
     while (name === null || name === '') [
-        name = alert('Please enter valid name.')]
+        name = alert('Please enter a valid name')]
 
     // add the name to the end of the array
 
