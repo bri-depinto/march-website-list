@@ -12,6 +12,10 @@ function addName() {
 
     const name = nameInput.value.trim()
 
+//alert if invaild name is entered
+    while (name === null || name === '') [
+        name = alert('Please enter valid name.')]
+
     // add the name to the end of the array
 
     namesArray.push(name)
